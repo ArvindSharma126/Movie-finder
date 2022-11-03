@@ -1,5 +1,5 @@
-const search_url = "http://www.omdbapi.com/?apikey=7651d290&s=";
-const search_movie_details_url = "http://www.omdbapi.com/?apikey=7651d290&i=";
+const search_url = "http://www.omdbapi.com/?apikey=<apikey>&s=";
+const search_movie_details_url = "http://www.omdbapi.com/?apikey=<apikey>&i=";
 
 function search_movie(){
     var movie = document.getElementById("movie");
