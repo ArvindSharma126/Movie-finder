@@ -1,0 +1,69 @@
+.header{
+    position:sticky;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.header h1{
+    margin:0px;
+    padding:0px;
+    position:relative;
+    top:15px;
+}
+
+body{
+    background-color:lightblue ;
+}
+#container_div{
+    width:100%;
+    position: absolute;
+    top:100px;
+    left:0px;
+    text-align: center;
+}
+
+#search{
+    position: absolute;
+    top:20px;
+    left: 40%;
+}
+
+#search button{
+    color: white;
+    background-color: darkblue;
+}
+
+#search button, input {
+    font-size:medium;
+}
+
+.cards{
+    background-color: darkblue;
+    margin: auto;
+    font-size: large;
+    color: azure;
+    padding:20px;
+    width: 900px;
+}
+
+#cards_container{
+    position: relative;
+    left:0px;
+    top:50px;
+    text-align: center;
+}
+
+.message{
+    background-color: darkblue;
+    color: white;
+    position:relative;
+    top:20px;
+    font-size: 50px;
+    padding: 20px;
+}
